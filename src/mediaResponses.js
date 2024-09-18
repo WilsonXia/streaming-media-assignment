@@ -52,15 +52,15 @@ const getMedia = (request, response, fileName, contentType) => {
 };
 
 const getParty = (request, response) => {
-  getMedia(request, response, '../client/party.mp4', 'media/mp4');
+  getMedia(request, response, '../client/party.mp4', 'video/mp4');
 };
 
 const getBird = (request, response) => {
-  getMedia(request, response, '../client/bird.mp4', 'media/mp4');
+  getMedia(request, response, '../client/bird.mp4', 'video/mp4');
 };
 
 const getBling = (request, response) => {
-  getMedia(request, response, '../client/bling.mp3', 'media/mp3');
+  getMedia(request, response, '../client/bling.mp3', 'audio/mp3');
 };
 
 module.exports = {
